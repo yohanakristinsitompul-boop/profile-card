@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "profile-card",
+    "name": "Profile Card",
     "slug": "profile-card",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-
     "plugins": [
       [
         "expo-image-picker",
@@ -22,27 +21,39 @@
         }
       ]
     ],
-
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yohanasitompul.profilecard"
     },
-
     "android": {
+      "package": "com.yohanasitompul.profilecard",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
     },
-
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e276f6e0-0dae-4b72-8c5e-bb9a89e77220"
+      }
+    },
+    "owner": "yohana06"
   }
 }

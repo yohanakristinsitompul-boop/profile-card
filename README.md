@@ -114,12 +114,6 @@ Profile Card merupakan aplikasi mobile sederhana yang memungkinkan pengguna memb
 
 # 📥 Download APK
 
-APK dapat diunduh melalui link berikut:
-
-**👉 Tempel link APK EAS kamu di sini**
-
-Contoh:
-
 https://expo.dev/artifacts/eas/Fy84BLsXjel34gcOs07oLkHykssrvZpUnYcoaFKWkns.apk
 
 ---
@@ -160,27 +154,6 @@ npx expo start
 4. Izinkan instalasi dari sumber yang tidak dikenal jika diminta.
 5. Tekan **Install**.
 6. Setelah selesai, buka aplikasi **Profile Card**.
-
----
-
-# 📂 Struktur Project
-
-```
-profile-card
-│
-├── assets/
-├── screenshots/
-│   ├── build-finished.png
-│   ├── install-dialog.jpg
-│   ├── app-icon.jpg
-│   └── app-running.jpg
-│
-├── App.js
-├── app.json
-├── package.json
-├── eas.json
-└── README.md
-```
 
 ---
 
